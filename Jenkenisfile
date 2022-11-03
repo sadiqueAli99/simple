@@ -12,11 +12,7 @@ pipeline{
              }
             
         }
-        stage('Maven Build'){
-        steps{
-           print('built sucessfull')
-             }
-        }
+        
         stage('Maven Deploy'){
         steps{
            print('deployed')
